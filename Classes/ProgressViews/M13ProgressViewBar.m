@@ -101,7 +101,7 @@
     _progressLayer = [CAShapeLayer layer];
     _progressLayer.strokeColor = self.primaryColor.CGColor;
     _progressLayer.lineWidth = _progressBarThickness;
-    _progressLayer.lineCap = kCALineCapRound;
+    //_progressLayer.lineCap = kCALineCapRound;
     [_progressBar.layer addSublayer:_progressLayer];
     
     //Percentage
